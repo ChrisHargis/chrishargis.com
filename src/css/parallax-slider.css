@@ -4,7 +4,8 @@
 	position: relative;
 	margin: 0 auto;
 	overflow: hidden;
-	background: transparent url(../img/bg.jpg) repeat 0% 0%;
+	background-color: blue;
+	background: transparent url(../img/arrow.png) repeat 0% 0%;
 	box-shadow: 0px 1px 1px rgba(0,0,0,0.2), 0px -2px 1px #fff;
 	-webkit-transition: background-position 1.4s ease-in-out 0.3s;
 	-moz-transition: background-position 1.4s ease-in-out 0.3s;
@@ -23,6 +24,7 @@
 }
 .da-slide-current{
 	z-index: 10;
+	background: url(../img/museum.jpg);
 }
 .da-slider-fb .da-slide{
 	left: 100%;
