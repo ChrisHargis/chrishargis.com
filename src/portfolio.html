@@ -34,6 +34,10 @@
 
     <link rel="stylesheet" href="css/custom.css">
 
+    <link rel="stylesheet" href="css/custom-cubeportfolio.css">
+
+    <link rel="stylesheet" href="css/cubeportfolio.min.css">
+
     <!-- Font Awesome -->
   
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -50,7 +54,7 @@
 <div class="wrapper" style="padding-top:20px;">
     <!--=== Header ===-->    
     <div class="header">
-        <div class="container">
+        <div class="container animated fadeInLeft">
             <!-- Logo -->
             <a href="index.html" >
                 <h1>CHRISHARGIS.COM</h1>
@@ -68,7 +72,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse mega-menu navbar-responsive-collapse">
             <div class="container">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav animated fadeInRight">
                     <!-- Home -->
                     <li>
                         <a href="index.html">
@@ -80,7 +84,7 @@
 
                     <!-- Portfolio -->
                     <li>
-                        <a href="#">
+                        <a href="porfolio.html">
                             Portfolio
                         </a>
                         
@@ -96,17 +100,24 @@
     <!--=== Breadcrumbs v3 ===-->
     <div class="breadcrumbs-v3 img-v1">
         <div class="container text-center">
-            <p>Portfolio</p>
-            <h1>of web Sites and Programs</h1>
+            <h1>My Portfolio</h1>
         </div><!--/end container-->
     </div>
     <!--=== End Breadcrumbs v3 ===-->
 
     <!--=== Cube-Portfdlio ===-->
     <div class="cube-portfolio container margin-bottom-60">
-        
 
-        <div id="grid-container" class="cbp-l-grid-agency">
+        <div class="content-xs">
+            <div id="filters-container" class="cbp-l-filters-text content-xs">
+               <!-- <div data-filter="*" class="cbp-filter-item-active cbp-filter-item"> All </div> |
+                <div data-filter=".identity" class="cbp-filter-item"> Identity </div> |
+                <div data-filter=".web-design" class="cbp-filter-item"> Web Design </div> |
+                <div data-filter=".graphic" class="cbp-filter-item"> Graphic </div> |
+                <div data-filter=".logos" class="cbp-filter-item"> Logo </div> -->
+            </div><!--/end Filters Container-->
+        
+       <div id="grid-container" class="cbp-l-grid-agency">
             <div class="cbp-item graphic">
                 <div class="cbp-caption margin-bottom-20">
                     <div class="cbp-caption-defaultWrap">
@@ -116,17 +127,20 @@
                         <div class="cbp-l-caption-alignCenter">
                             <div class="cbp-l-caption-body">
                                 <ul class="link-captions no-bottom-space">
+                                    <li><a href="#"><i class="rounded-x fa fa-link"></i></a></li>
+                                    
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="cbp-title-dark">
-                    <div class="cbp-l-grid-agency-title">Design Object 01</div>
-                    <div class="cbp-l-grid-agency-desc">Web Design</div>
+                    <div class="cbp-l-grid-agency-title"><h3>Sitetoid.com</h3></a></div>
                 </div>
             </div>
-        </div><!--/end Grid Container-->
+        </div> 
+
+        <!--/end Grid Container-->
     </div>    
     <!--=== End Cube-Portfdlio ===-->
 
@@ -158,7 +172,6 @@
                     <div class="col-md-6">                     
                         <p>
                             2015 &copy; All Rights Reserved.
-                           <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
                         </p>
                     </div>
 
@@ -225,15 +238,11 @@
 
     <script src="js/jquery-1.11.1.min.js"></script>
 
-    <script src="js/jquery-ui.js"></script>
-
     <script src="js/jquery.easytabs.js"></script>
 
     <script src="js/twitterFetcher.min.js"></script>
 
     <script src="js/jquery.bxSlider.min.js"></script>
-
-    <script src="js/nav.js"></script>
 
     <script src="js/responsive-nav.js"></script>
 
@@ -241,7 +250,6 @@
 
     <script src="js/jquery.lightSlider.min.js"></script>
 
-     <script src="js/main.js"></script>
 
      <!-- JS Global Compulsory -->          
     <script type="text/javascript" src="js/jquery.min.js"></script>
