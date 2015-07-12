@@ -1,1 +1,5 @@
-/* Add here all your css styles (customizations) */
+.port-border{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #008FB2;
+}
